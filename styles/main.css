@@ -1,3 +1,68 @@
-#fishtank {}
-.fish {}
-.fish__name {}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.fishTank {
+    display: flex; 
+    justify-content: flex-start;
+}
+
+
+.fish {
+    border: thick rgb(0, 95, 95) solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.travelTips {
+    border: thick rgb(0, 95, 95) solid;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center
+
+}
+
+.locations {
+    border: thick rgb(0, 95, 95) solid;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center
+}
+
+
+aside {
+    border: thick rgb(0, 95, 95) solid;
+    padding: 20px;
+    margin: 20px;
+    float: right;
+    width: 40%;
+    background-color: rgb(190, 255, 255);
+  }
