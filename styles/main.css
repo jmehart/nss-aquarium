@@ -4,17 +4,23 @@
     padding-top: 40px;
     display: flex;
     justify-content: center;
+    text-align: center;
+    word-spacing: 5em;
+    text-indent: 30px;
+    font-size: 20px;
 }
 
 .oval {
-    background-color: rgb(190, 255, 255);
+    background-image: url("https://www.pngitem.com/pimgs/m/501-5010578_fish-bowl-png-download-transparent-background-cartoon-fish.png");
     background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
 }
 
-h2 {
+.sectionHeader {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .fishTank {
@@ -29,7 +35,6 @@ h2 {
     padding: 20px;
     margin: 20px;
     flex: 3;
-    
 }
 
 figure {
@@ -39,12 +44,12 @@ figure {
     padding: 5px;
     max-width: auto;
     align-self: center;
+    background-color: rgb(190, 255, 255);
 }
 
-img {
+.fishImg {
     width: 300px;
     max-height: 200px;
-    align-self: center;
 }
 
 figcaption {
@@ -69,25 +74,57 @@ ul {
 }
 
 .travelLocations {
-    flex: 2;
+    flex: 3;
 }
 
 .travelTips {
     border: thick rgb(0, 95, 95) solid;
-    padding: 40px;
+    padding: 20px 40px;
     margin: 20px;
 }
 
 .locations {
     border: thick rgb(0, 95, 95) solid;
-    padding: 40px;
+    padding: 20px 40px;
     margin: 20px;
+    
+}
+
+.locImg {
+    width: 300px;
+    max-height: 200px;
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: auto;
+    align-self: center;
+    background-color: rgb(190, 255, 255);
+    
+}
+
+.imgParent {
+    display: flex;
+    justify-content: center;
+}
+
+.locationHeader {
+    display: flex;
+    justify-content: center;
 }
 
 aside {
     border: thick rgb(0, 95, 95) solid;
-    padding: 40px;
+    padding: 20px 40px;
     margin: 20px;
     background-color: rgb(190, 255, 255);
     flex: 1;
   }
+
+  p {
+      text-align: justify;
+  }
+
+  * {
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+   }
