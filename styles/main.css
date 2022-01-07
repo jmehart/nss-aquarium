@@ -6,17 +6,21 @@
     justify-content: center;
 }
 
+.oval {
+    background-color: rgb(190, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
 h2 {
     text-align: center;
 }
 
-main {
-    display: flex; 
-    justify-content: space-around;
-}
-
 .fishTank {
     display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
     padding: 40px;
 }
 
@@ -24,6 +28,8 @@ main {
     border: thick rgb(0, 95, 95) solid;
     padding: 20px;
     margin: 20px;
+    flex: 3;
+    
 }
 
 figure {
@@ -31,12 +37,14 @@ figure {
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 220px;
+    max-width: auto;
+    align-self: center;
 }
 
 img {
-    max-width: 220px;
-    max-height: 150px;
+    width: 300px;
+    max-height: 200px;
+    align-self: center;
 }
 
 figcaption {
@@ -47,25 +55,39 @@ figcaption {
     text-align: center;
 }
 
+.imgCap {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: auto;
+    align-self: center;
+}
+
+ul {
+    align-self: center;
+}
+
+.travelLocations {
+    flex: 2;
+}
+
 .travelTips {
     border: thick rgb(0, 95, 95) solid;
     padding: 40px;
     margin: 20px;
-
 }
 
 .locations {
     border: thick rgb(0, 95, 95) solid;
     padding: 40px;
     margin: 20px;
-
 }
-
 
 aside {
     border: thick rgb(0, 95, 95) solid;
     padding: 40px;
     margin: 20px;
     background-color: rgb(190, 255, 255);
-
+    flex: 1;
   }
