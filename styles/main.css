@@ -1,6 +1,7 @@
 
 
 .title {
+    padding-top: 40px;
     display: flex;
     justify-content: center;
 }
@@ -9,11 +10,15 @@ h2 {
     text-align: center;
 }
 
-.fishTank {
+main {
     display: flex; 
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
+.fishTank {
+    display: flex; 
+    padding: 40px;
+}
 
 .fish {
     border: thick rgb(0, 95, 95) solid;
@@ -44,25 +49,23 @@ figcaption {
 
 .travelTips {
     border: thick rgb(0, 95, 95) solid;
-    padding: 20px;
+    padding: 40px;
     margin: 20px;
-    justify-content: center
 
 }
 
 .locations {
     border: thick rgb(0, 95, 95) solid;
-    padding: 20px;
+    padding: 40px;
     margin: 20px;
-    justify-content: center
+
 }
 
 
 aside {
     border: thick rgb(0, 95, 95) solid;
-    padding: 20px;
+    padding: 40px;
     margin: 20px;
-    float: right;
-    width: 40%;
     background-color: rgb(190, 255, 255);
+
   }
